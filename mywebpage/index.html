@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+  <style>
+    
+    body {
+      
+      background-size: cover;
+      background-position: center;
+      /* background-attachment: fixed;   */
+    }
+
+    
+    #profile {
+      background-image: url('./assets/IMG_4439.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+  </style>
+</head>
+
+<body>
+  <button id="dark-mode-toggle">Dark Mode</button>
+
+
+  <nav id="desktop-nav">
+    <div class="logo">Jaya Jwalitha Nagulla</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Jaya Jwalitha Nagulla</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="menu-links">
+      <li><a href="index.html" onclick="toggleMenu()">About</a></li>
+      <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
+      <li><a href="hobbies.html" onclick="toggleMenu()">Hobbies</a></li>
+      <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+      
+    </div>
+
+    </div>
+
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__text">
+      <h1 style="font-size: 100px;">Hello!!</h1>
+    </div>
+  </section>
+  <section id="about">
+    <h1 class="title">About Me</h1>
+    <div class="section-container">      
+      <div class="section__pic-container">
+        <img src="./assets/about-pic.jpeg" width="auto" height="500" alt="Profile picture" class="about-pic" />
+      </div>
+
+      <p class="para"><strong>
+        <p> I am a Master's in Computer Science student at New Mexico State University.
+           I am from India, currently living in New Mexico, United States, to pursue my Masters. 
+           I have done my bachelors in Computer Science with cloud computing specialization back in India and worked in a Multi National Company called Tata Consultancy Services for about an year.
+           You can checkout my projects, resume to know more about my experience and skills. Do checkout my Hobbies page to more about the fun stuff I do.
+           I love exploring new places knowing the culture and tasting different kinds of food and try new adventures. I love to go to concerts. I am interested to develop something with the combination of Artificial Intelligence and Psychology.
+           This is all about myself. 
+           I am a Master's in Computer Science student at New Mexico State University.
+           I am from India, currently living in New Mexico, United States, to pursue my Masters. 
+           I have done my bachelors in Computer Science with cloud computing specialization back in India and worked in a Multi National Company called Tata Consultancy Services for about an year.
+           You can checkout my projects, resume to know more about my experience and skills. Do checkout my Hobbies page to more about the fun stuff I do.
+           I am a Master's in Computer Science student at New Mexico State University.
+           I am from India, currently living in New Mexico, United States, to pursue my Masters. 
+           I have done my bachelors in Computer Science with cloud computing specialization back in India and worked in a Multi National Company called Tata Consultancy Services for about an year.
+           You can checkout my projects, resume to know more about my experience and skills. Do checkout my Hobbies page to more about the fun stuff I do.
+        
+        
+          </p>
+        </strong>
+      </p>
+      
+
+    </div>
+    </div>
+    </div>
+
+  </section>
+
+
+  <footer>
+    <p>Copyright &#169; 2024 Nagulla Jaya Jwalitha</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

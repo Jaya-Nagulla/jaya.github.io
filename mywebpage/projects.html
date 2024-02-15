@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+  <button id="dark-mode-toggle">Dark Mode</button>
+
+  
+  <nav id="desktop-nav">
+    <div class="logo">Jaya Jwalitha Nagulla</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Jaya Jwalitha Nagulla</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="menu-links">
+      <li><a href="index.html" onclick="toggleMenu()">About</a></li>
+      <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
+      <li><a href="hobbies.html" onclick="toggleMenu()">Hobbies</a></li>
+      <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+      
+    </div>
+
+    </div>
+
+    </div>
+  </nav>
+
+
+  <h1><strong>Projects</strong></h1>
+  
+  <div class="projects-container">
+    <div class="project">
+      <p><strong>Pre-emptive online scheduling with task relocation in cloud computing:</strong> An approach to increase the overall performance and response time of a task.</p>
+    </div>
+    <div class="project">
+      <p><strong>Setting up a static website using Amazon S3:</strong> To create an EC2 instance and reconfigure with given specifications.</p>
+    </div>
+    <div class="project">
+      <p><strong>Customer Data:</strong> Segregation of customer details according to attributes using core Java in Eclipse. To create, insert, update, delete, and view the customer records by taking real-time inputs done on the Eclipse platform.</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+</html>
